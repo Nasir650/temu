@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { supabaseAdmin } from '@/lib/supabase';
 import Navbar from '@/components/Navbar';
 
-export const revalidate = 3600;
+export const revalidate = 60;
 
 async function getProducts() {
   const { data } = await supabaseAdmin.from('products').select('*, category:categories(name, slug)').eq('status', 'published').order('created_at', { ascending: false }).limit(12);

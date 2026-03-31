@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { supabaseAdmin } from '@/lib/supabase';
 
-export const revalidate = 3600;
+export const revalidate = 60;
 
 interface Props {
   searchParams: { search?: string; category?: string; page?: string };
