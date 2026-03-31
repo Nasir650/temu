@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { supabaseAdmin } from '@/lib/supabase';
+import Navbar from '@/components/Navbar';
 
 export const revalidate = 3600;
 
@@ -30,26 +31,7 @@ export default async function HomePage() {
   return (
     <>
       {/* ───── NAVBAR ───── */}
-      <header className="fixed top-0 w-full z-50 bg-forest-900">
-        <nav className="flex justify-between items-center px-6 lg:px-10 h-16 max-w-[1440px] mx-auto">
-          <div className="flex items-center gap-8">
-            <div className="hidden md:flex items-center gap-6">
-              {[{label:'Shop',href:'/products'},{label:'How It Works',href:'/how-it-works'},{label:'FAQ',href:'/faq'},{label:'About',href:'/about'},{label:'Contact',href:'/contact'}].map(l=>(
-                <Link key={l.label} href={l.href} className="text-[13px] font-medium text-cream-200 hover:text-white transition-colors">{l.label}</Link>
-              ))}
-            </div>
-          </div>
-          <Link href="/" className="font-script text-3xl italic text-white tracking-wide">Temu Deals</Link>
-          <div className="flex items-center gap-4">
-            <div className="hidden lg:flex items-center bg-forest-800/60 rounded-full px-4 py-2 border border-forest-700/50">
-              <span className="material-symbols-outlined text-cream-300 text-[18px]">search</span>
-              <form action="/products" method="GET"><input name="search" className="bg-transparent border-none text-sm text-white placeholder:text-cream-400 ml-2 w-44 outline-none" placeholder="Search deals..." /></form>
-            </div>
-            <Link href="/products" className="text-cream-200 hover:text-white"><span className="material-symbols-outlined text-[22px]">shopping_bag</span></Link>
-            <button className="md:hidden text-cream-200 hover:text-white"><span className="material-symbols-outlined">menu</span></button>
-          </div>
-        </nav>
-      </header>
+      <Navbar />
 
       <main className="pt-16">
         {/* ───── HERO ───── */}
