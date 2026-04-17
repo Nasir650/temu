@@ -64,7 +64,7 @@ export default async function CategoryPage({ params, searchParams }: Props) {
                   <h3 className="text-xl font-headline font-bold text-on-surface mb-3 line-clamp-1 group-hover:text-primary transition-colors">{product.title}</h3>
                 </Link>
                 <div className="flex items-center gap-3 mb-6">
-                  <span className="text-2xl font-black text-on-surface">{product.price ? `$${product.price}` : 'See Price'}</span>
+                  <span className="text-2xl font-black text-on-surface">{product.price ? `CA$${product.price}` : 'See Price'}</span>
                 </div>
                 <Link href={`/go/${product.slug}`} className="flex items-center justify-center w-full h-12 bg-secondary text-white font-headline font-bold rounded-xl hover:brightness-110 transition-all shadow-lg shadow-secondary/20 active:scale-95">
                   Get Deal<span className="material-symbols-outlined ml-2 text-sm">open_in_new</span>

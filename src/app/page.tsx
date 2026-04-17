@@ -115,7 +115,7 @@ export default async function HomePage() {
                       <span className="text-[10px] font-semibold text-forest-600 uppercase tracking-wider">{product.category?.name || 'Uncategorized'}</span>
                       <p className="text-[13px] text-on-surface-variant leading-snug mb-3 mt-1 line-clamp-2">{product.title}</p>
                       <div className="flex items-center justify-between">
-                        <span className="text-lg font-bold text-forest-900">{product.price ? `$${product.price}` : 'See Price'}</span>
+                        <span className="text-lg font-bold text-forest-900">{product.price ? `CA$${product.price}` : 'See Price'}</span>
                         <Link href={`/go/${product.slug}`} className="flex items-center gap-1 px-4 py-2 bg-forest-900 text-white text-xs font-semibold rounded-lg hover:bg-forest-700 transition-colors">
                           Get Deal <span className="material-symbols-outlined text-[14px]">open_in_new</span>
                         </Link>

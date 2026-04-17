@@ -190,7 +190,7 @@ export default function AdminProducts() {
                       </div>
                     </td>
                     <td className="px-6 py-4 text-sm font-medium">{product.category?.name || '—'}</td>
-                    <td className="px-6 py-4 text-sm font-bold">{product.price ? `$${product.price}` : '—'}</td>
+                    <td className="px-6 py-4 text-sm font-bold">{product.price ? `CA$${product.price}` : '—'}</td>
                     <td className="px-6 py-4">{statusBadge(product.status)}</td>
                     <td className="px-6 py-4 text-sm text-on-surface-variant">{product.scheduled_at ? new Date(product.scheduled_at).toLocaleDateString() : '—'}</td>
                     <td className="px-6 py-4 text-right whitespace-nowrap">

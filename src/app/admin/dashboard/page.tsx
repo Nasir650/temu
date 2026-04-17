@@ -205,7 +205,7 @@ export default function AdminDashboard() {
                       </div>
                     </td>
                     <td className="px-6 py-4 text-sm font-medium">{product.category?.name || '—'}</td>
-                    <td className="px-6 py-4 text-sm font-bold">{product.price ? `$${product.price}` : '—'}</td>
+                    <td className="px-6 py-4 text-sm font-bold">{product.price ? `CA$${product.price}` : '—'}</td>
                     <td className="px-6 py-4">{statusBadge(product.status)}</td>
                     <td className="px-8 py-4 text-right">
                       <Link href={`/admin/products/${product.id}/edit`} className="p-2 text-outline hover:text-primary transition-colors inline-block">

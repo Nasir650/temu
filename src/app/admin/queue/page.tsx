@@ -68,7 +68,7 @@ export default function AdminQueue() {
                       </div>
                     </td>
                     <td className="px-6 py-4 text-sm">{product.category?.name || '—'}</td>
-                    <td className="px-6 py-4 text-sm font-bold">{product.price ? `$${product.price}` : '—'}</td>
+                    <td className="px-6 py-4 text-sm font-bold">{product.price ? `CA$${product.price}` : '—'}</td>
                     <td className="px-6 py-4 text-sm text-on-surface-variant">{product.scheduled_at ? new Date(product.scheduled_at).toLocaleString() : '—'}</td>
                     <td className="px-8 py-4 text-right whitespace-nowrap">
                       <Link href={`/admin/products/${product.id}/edit`} className="p-2 text-outline hover:text-primary transition-colors inline-block"><span className="material-symbols-outlined text-xl">edit</span></Link>

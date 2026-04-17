@@ -74,7 +74,7 @@ export default async function ProductDetail({ params }: Props) {
 
             <div className="p-6 rounded-2xl bg-surface-container-low border border-outline-variant/10">
               <div className="flex items-baseline gap-3">
-                <span className="text-4xl font-black text-secondary">{product.price ? `$${product.price}` : 'See Price on Temu'}</span>
+                <span className="text-4xl font-black text-secondary">{product.price ? `CA$${product.price}` : 'See Price on Temu'}</span>
               </div>
               <p className="text-[11px] text-outline mt-3 leading-relaxed italic">Price shown at time of entry. Check Temu for current price.</p>
             </div>

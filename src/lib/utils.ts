@@ -85,7 +85,7 @@ export async function ensureUniqueSlug(
 
 export function formatPrice(price: number | null): string {
   if (price === null || price === undefined) return 'N/A';
-  return `$${price.toFixed(2)}`;
+  return `CA$${price.toFixed(2)}`;
 }
 
 export function formatDate(dateStr: string | null): string {
