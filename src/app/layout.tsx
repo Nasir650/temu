@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Temu Deals — Curated Affiliate Deals & Best Finds",
+  title: "Spy Web Cams — Curated Affiliate Deals & Best Finds",
   description: "Your trusted destination for curated Temu affiliate deals. We analyze trends, price history and reviews to bring you the best value items daily.",
 };
 

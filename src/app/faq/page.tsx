@@ -1,9 +1,9 @@
 import Link from 'next/link';
 
-export const metadata = { title: 'FAQ — Temu Deals', description: 'Frequently asked questions about Temu Deals.' };
+export const metadata = { title: 'FAQ — Spy Web Cams', description: 'Frequently asked questions about Spy Web Cams.' };
 
 const faqs = [
-  { q: 'What is Temu Deals?', a: 'Temu Deals is an affiliate website that curates the best deals from the Temu marketplace. Our team handpicks quality products at unbeatable prices so you can shop smarter.' },
+  { q: 'What is Spy Web Cams?', a: 'Spy Web Cams is an affiliate website that curates the best deals from the Temu marketplace. Our team handpicks quality products at unbeatable prices so you can shop smarter.' },
   { q: 'How do you select products?', a: 'Our team reviews products based on price, quality, customer ratings, order volume, and overall value. Only the best deals make it to our site.' },
   { q: 'Do I buy products from you?', a: 'No. When you click on a deal, you are redirected to the Temu marketplace where you complete your purchase directly with Temu.' },
   { q: 'Are the prices accurate?', a: 'We update prices regularly, but prices on Temu can change at any time. The final price will always be shown on Temu\'s website at checkout.' },
@@ -18,13 +18,13 @@ export default function FAQPage() {
     <>
       <header className="fixed top-0 w-full z-50 bg-forest-900">
         <nav className="flex justify-between items-center px-6 lg:px-10 h-16 max-w-[1440px] mx-auto">
-          <Link href="/" className="font-script text-3xl italic text-white tracking-wide">Temu Deals</Link>
+          <Link href="/" className="font-script text-3xl italic text-white tracking-wide">Spy Web Cams</Link>
           <Link href="/" className="text-cream-200 hover:text-white text-sm">← Back to Home</Link>
         </nav>
       </header>
       <main className="pt-24 pb-20 px-6 lg:px-10 max-w-3xl mx-auto">
         <h1 className="text-4xl font-headline font-bold text-forest-900 mb-4">Frequently Asked Questions</h1>
-        <p className="text-on-surface-variant mb-10">Everything you need to know about Temu Deals.</p>
+        <p className="text-on-surface-variant mb-10">Everything you need to know about Spy Web Cams.</p>
         <div className="space-y-4">
           {faqs.map((faq, i) => (
             <div key={i} className="bg-white rounded-2xl p-6 shadow-sm border border-cream-200">

@@ -18,7 +18,7 @@ export default async function ProductDetail({ params }: Props) {
       <header className="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-xl shadow-xl shadow-slate-900/5">
         <div className="flex justify-between items-center px-8 h-20 max-w-screen-2xl mx-auto">
           <div className="flex items-center gap-8">
-            <Link href="/" className="text-2xl font-black text-primary font-headline tracking-tight">Temu Deals</Link>
+            <Link href="/" className="text-2xl font-black text-primary font-headline tracking-tight">Spy Web Cams</Link>
             <nav className="hidden md:flex gap-6 items-center font-headline font-bold tracking-tight">
               <Link href="/products" className="text-slate-600 hover:text-primary transition-all">Categories</Link>
               <Link href="/products" className="text-slate-600 hover:text-primary transition-all">Flash Sales</Link>
@@ -157,8 +157,8 @@ export default async function ProductDetail({ params }: Props) {
       <footer className="bg-slate-50 w-full py-12 px-8">
         <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex flex-col gap-2 text-center md:text-left">
-            <span className="text-lg font-black text-primary font-headline tracking-tight">Temu Deals</span>
-            <p className="text-slate-400 text-xs">© 2026 Temu Deals. All rights reserved.</p>
+            <span className="text-lg font-black text-primary font-headline tracking-tight">Spy Web Cams</span>
+            <p className="text-slate-400 text-xs">© 2026 Spy Web Cams. All rights reserved.</p>
           </div>
           <div className="flex gap-6 text-xs tracking-wide uppercase text-slate-400">
             <a href="#" className="hover:text-primary underline underline-offset-4 transition-all">Privacy Policy</a>

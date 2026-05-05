@@ -77,7 +77,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
             <span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>dashboard</span>
           </div>
           <div>
-            <h1 className="text-lg font-black text-primary tracking-tight font-headline">Temu Manager</h1>
+            <h1 className="text-lg font-black text-primary tracking-tight font-headline">Spy Web Cams Manager</h1>
             <p className="text-[10px] uppercase tracking-widest text-slate-500 font-bold">Admin Portal</p>
           </div>
         </div>
@@ -143,7 +143,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
           <button onClick={() => setSidebarOpen(true)} className="p-2 text-primary">
             <span className="material-symbols-outlined">menu</span>
           </button>
-          <h1 className="text-lg font-black text-primary font-headline">Temu Manager</h1>
+          <h1 className="text-lg font-black text-primary font-headline">Spy Web Cams Manager</h1>
         </div>
 
         {children}

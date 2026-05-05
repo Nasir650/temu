@@ -24,7 +24,7 @@ export default function Navbar() {
             ))}
           </div>
         </div>
-        <Link href="/" className="font-script text-3xl italic text-white tracking-wide">Temu Deals</Link>
+        <Link href="/" className="font-script text-3xl italic text-white tracking-wide">Spy Web Cams</Link>
         <div className="flex items-center gap-4">
           <div className="hidden lg:flex items-center bg-forest-800/60 rounded-full px-4 py-2 border border-forest-700/50">
             <span className="material-symbols-outlined text-cream-300 text-[18px]">search</span>

@@ -1,13 +1,13 @@
 import Link from 'next/link';
 
-export const metadata = { title: 'Privacy Policy — Temu Deals', description: 'Our privacy policy explains how we handle your data.' };
+export const metadata = { title: 'Privacy Policy — Spy Web Cams', description: 'Our privacy policy explains how we handle your data.' };
 
 export default function PrivacyPage() {
   return (
     <>
       <header className="fixed top-0 w-full z-50 bg-forest-900">
         <nav className="flex justify-between items-center px-6 lg:px-10 h-16 max-w-[1440px] mx-auto">
-          <Link href="/" className="font-script text-3xl italic text-white tracking-wide">Temu Deals</Link>
+          <Link href="/" className="font-script text-3xl italic text-white tracking-wide">Spy Web Cams</Link>
           <Link href="/" className="text-cream-200 hover:text-white text-sm">← Back to Home</Link>
         </nav>
       </header>

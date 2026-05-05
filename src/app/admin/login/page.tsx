@@ -45,7 +45,7 @@ export default function AdminLogin() {
           <div className="w-16 h-16 rounded-2xl bg-primary flex items-center justify-center text-white mx-auto mb-4 shadow-xl shadow-primary/20">
             <span className="material-symbols-outlined text-3xl" style={{ fontVariationSettings: "'FILL' 1" }}>dashboard</span>
           </div>
-          <h1 className="text-3xl font-black text-on-surface font-headline tracking-tight">Temu Manager</h1>
+          <h1 className="text-3xl font-black text-on-surface font-headline tracking-tight">Spy Web Cams Manager</h1>
           <p className="text-on-surface-variant text-sm mt-2">Sign in to your admin portal</p>
         </div>
 
@@ -104,7 +104,7 @@ export default function AdminLogin() {
         </div>
 
         <p className="text-center text-xs text-outline mt-8">
-          © 2026 Temu Manager. Secure admin access only.
+          © 2026 Spy Web Cams Manager. Secure admin access only.
         </p>
       </div>
     </div>

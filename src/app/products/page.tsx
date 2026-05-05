@@ -27,7 +27,7 @@ export default async function ProductsPage({ searchParams }: Props) {
       <header className="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-xl shadow-xl shadow-slate-900/5">
         <nav className="flex justify-between items-center px-8 h-20 max-w-screen-2xl mx-auto">
           <div className="flex items-center gap-8">
-            <Link href="/" className="text-2xl font-black text-primary font-headline tracking-tight">Temu Deals</Link>
+            <Link href="/" className="text-2xl font-black text-primary font-headline tracking-tight">Spy Web Cams</Link>
             <div className="hidden md:flex items-center gap-6">
               <Link href="/products" className="font-headline font-bold tracking-tight text-primary border-b-2 border-primary pb-1">All Products</Link>
               {(categories || []).slice(0, 3).map(c => (
@@ -111,7 +111,7 @@ export default async function ProductsPage({ searchParams }: Props) {
 
       <footer className="bg-slate-50 w-full py-12 px-8">
         <div className="max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-          <span className="text-xs tracking-wide uppercase text-slate-400">© 2026 Temu Deals. All rights reserved.</span>
+          <span className="text-xs tracking-wide uppercase text-slate-400">© 2026 Spy Web Cams. All rights reserved.</span>
           <div className="flex gap-6 text-xs tracking-wide uppercase text-slate-400">
             <a href="#" className="hover:text-primary underline underline-offset-4 transition-all">Privacy</a>
             <a href="#" className="hover:text-primary underline underline-offset-4 transition-all">Terms</a>

@@ -1,13 +1,13 @@
 import Link from 'next/link';
 
-export const metadata = { title: 'Contact Us — Temu Deals', description: 'Get in touch with the Temu Deals team.' };
+export const metadata = { title: 'Contact Us — Spy Web Cams', description: 'Get in touch with the Spy Web Cams team.' };
 
 export default function ContactPage() {
   return (
     <>
       <header className="fixed top-0 w-full z-50 bg-forest-900">
         <nav className="flex justify-between items-center px-6 lg:px-10 h-16 max-w-[1440px] mx-auto">
-          <Link href="/" className="font-script text-3xl italic text-white tracking-wide">Temu Deals</Link>
+          <Link href="/" className="font-script text-3xl italic text-white tracking-wide">Spy Web Cams</Link>
           <Link href="/" className="text-cream-200 hover:text-white text-sm">← Back to Home</Link>
         </nav>
       </header>

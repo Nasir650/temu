@@ -231,7 +231,7 @@ export default function AdminDashboard() {
 
       {/* Footer */}
       <footer className="w-full py-12 px-8 flex flex-col md:flex-row justify-between items-center gap-4 bg-slate-50 mt-12">
-        <p className="text-xs tracking-wide uppercase text-slate-400">© 2026 Temu Manager. All rights reserved.</p>
+        <p className="text-xs tracking-wide uppercase text-slate-400">© 2026 Spy Web Cams Manager. All rights reserved.</p>
         <div className="flex gap-8">
           <a className="text-xs tracking-wide uppercase text-slate-400 hover:text-primary underline underline-offset-4 transition-all" href="#">Privacy Policy</a>
           <a className="text-xs tracking-wide uppercase text-slate-400 hover:text-primary underline underline-offset-4 transition-all" href="#">Terms of Service</a>

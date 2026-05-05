@@ -45,7 +45,7 @@ export default async function HomePage() {
             <div className="max-w-2xl py-16">
               <span className="inline-block px-4 py-1.5 mb-6 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-cream-200 text-xs tracking-widest uppercase font-semibold">Curated Daily Selection</span>
               <h1 className="text-4xl md:text-5xl lg:text-[3.6rem] font-bold text-white leading-[1.15] mb-6">
-                Top <span className="font-headline italic text-amber-400 text-5xl md:text-6xl lg:text-[4.2rem]">Temu Deals</span><br />
+                Top <span className="font-headline italic text-amber-400 text-5xl md:text-6xl lg:text-[4.2rem]">Spy Web Cams</span><br />
                 & Curated Finds
               </h1>
               <p className="text-cream-300 text-sm md:text-base max-w-md mb-8 leading-relaxed">
@@ -268,7 +268,7 @@ export default async function HomePage() {
                   <div className="flex gap-0.5">{[1,2,3,4,5].map(s=>(<span key={s} className="material-symbols-outlined star-filled text-[18px]" style={{fontVariationSettings:"'FILL' 1"}}>star</span>))}</div>
                 </div>
                 <p className="text-sm text-on-surface-variant mb-1">Trusted by <strong className="text-forest-900">50,000+</strong> Smart Shoppers</p>
-                <p className="text-xs text-on-surface-variant">Curated Temu Deals You Can Trust</p>
+                <p className="text-xs text-on-surface-variant">Curated Spy Web Cams You Can Trust</p>
               </div>
               <div className="md:w-2/3 grid sm:grid-cols-2 gap-5">
                 {testimonials.map((t, i) => (
@@ -297,7 +297,7 @@ export default async function HomePage() {
             <div className="relative z-10">
               <h2 className="text-3xl md:text-4xl font-headline font-bold text-white mb-4">Never Miss a Deal</h2>
               <p className="text-cream-300 text-sm md:text-base max-w-2xl mx-auto mb-8 leading-relaxed">
-                Join 50,000+ smart shoppers who discover the best Temu deals every day. We curate, you save — it&apos;s that simple. 🔥
+                Join 50,000+ smart shoppers who discover the best Spy Web Cams deals every day. We curate, you save — it&apos;s that simple. 🔥
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center max-w-md mx-auto">
                 <input className="flex-1 h-12 px-5 rounded-xl bg-white/10 border border-white/20 text-white placeholder:text-cream-400 text-sm outline-none focus:ring-2 focus:ring-amber-500/50" placeholder="Enter your email" type="email" />
@@ -314,7 +314,7 @@ export default async function HomePage() {
         <div className="max-w-[1440px] mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
             <div className="md:col-span-1">
-              <span className="font-script text-3xl italic text-white block mb-4">Temu Deals</span>
+              <span className="font-script text-3xl italic text-white block mb-4">Spy Web Cams</span>
               <p className="text-cream-300 text-sm leading-relaxed mb-4">Your trusted destination for curated Temu affiliate deals. We analyze trends and reviews to bring you the best value.</p>
               <p className="text-[10px] text-cream-500 italic leading-relaxed">PRICING DISCLAIMER: Prices and availability are subject to change. As an affiliate, we may earn from qualifying purchases.</p>
             </div>
@@ -338,7 +338,7 @@ export default async function HomePage() {
             </div>
           </div>
           <div className="pt-6 border-t border-forest-700/50 flex flex-col md:flex-row justify-between items-center gap-4">
-            <span className="text-cream-400 text-xs">© 2026 Temu Deals. All rights reserved.</span>
+            <span className="text-cream-400 text-xs">© 2026 Spy Web Cams. All rights reserved.</span>
             <div className="flex gap-4">
               {[{label:'Privacy',href:'/privacy'},{label:'Terms',href:'/terms'},{label:'Affiliate Disclosure',href:'/affiliate-disclosure'}].map(l=>(<Link key={l.label} href={l.href} className="text-cream-500 text-xs hover:text-white transition-colors">{l.label}</Link>))}
             </div>
